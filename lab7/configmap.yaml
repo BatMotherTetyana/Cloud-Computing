@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: lab07-config
+data:
+  APP_VERSION: "2.0.0"
+  LOG_LEVEL: "info"
+  WELCOME_MSG: "Hello from ConfigMap!"
